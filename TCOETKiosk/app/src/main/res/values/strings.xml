@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">TCET Kiosk</string>
+    <string name="title_activity_main_dashboard">Letter Generation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="planets_array">
+        <item>Select Letter</item>
+        <item>Transcript</item>
+        <item>Letter of Recommendation</item>
+        <item>Provisional Degree Certificate</item>
+        <item>Character Certificate</item>
+        <item>Bonafide Certificate</item>
+        <item>ID Card Letter</item>
+        <item>Re-Evaluation Marksheet</item>
+        <item>Transfer Certificate (TC)</item>
+        <item>Leaving Certificate</item>
+        <item>Leave Certificate (Medical Leave)</item>
+        <item>Others</item>
+    </string-array>
+
+    <!--
+        <item>CGPI Verification Letter</item>
+
+        <item>Medium of Instruction Letter</item>
+        <item>No Objection Certificate(NOC)</item>
+        <item>Migration Certificate</item>
+        <item>Duplicate Marksheet</item>
+        <item>Verification Education</item>
+        <item>Duplicate fee Receipt</item>
+        <item>Internship</item>
+        <item>Duplicate Hallticket</item>
+-->
+
+
+</resources>

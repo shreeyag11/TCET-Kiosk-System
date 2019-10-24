@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tabian.tcoetkiosk">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/thakur_logo"
+        android:label="TCET Kiosk"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Contact"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Tracking"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Others"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".MainDashboard"
+            android:label="@string/title_activity_main_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddToDatabase"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".LetterConnection"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".LetterGenerator"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".LOR"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".MainActivityTesting"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Transcript"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".ViewDatabase"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
